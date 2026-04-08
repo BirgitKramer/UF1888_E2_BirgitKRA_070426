@@ -66,7 +66,7 @@ SELECT
     COUNT(so.id) AS numero_pedidos,
     SUM(so.amount_total) AS total_vendido
 FROM sale_order so
-JOIN rs_partner rp ON so.partner_id = rp.id
+JOIN res_partner rp ON so.partner_id = rp.id
 WHERE so.state IN ('sale', 'done')
 GROUP BY rp.name
 ORDER BY total_vendido;
