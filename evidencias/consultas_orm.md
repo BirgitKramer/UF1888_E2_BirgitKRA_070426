@@ -1,5 +1,5 @@
 # Consultas usando el ORM de Odoo 19
-**Accede ala BBDD usando mdelos de Odoo en Python**
+**Accede a la BBDD usando mdelos de Odoo en Python**
 
 ### Modelos que intervienen
 - Para ventas:
@@ -7,7 +7,7 @@
     -sale.order.line
     - res.partnr
     - product.product
-    #### Ejemplo consulta ORM sencilla de ventas
+#### Ejemplo consulta ORM sencilla de ventas
 ```python
 ventas = self.env['sale.order'].search([
     ('state', 'in', ['sale'. 'done'])
