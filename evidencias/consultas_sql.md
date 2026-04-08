@@ -70,5 +70,8 @@ JOIN rs_partner rp ON so.partner_id = rp.id
 WHERE so.state IN ('sale', 'done')
 GROUP BY rp.name
 ORDER BY total_vendido;
-´´´
+```
 ![alt text](ventas_cliente_070426.png)
+
+
+
