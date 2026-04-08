@@ -13,7 +13,7 @@
         'security/ir.model.access.csv',
         'views/sale_report_orm_views.xml',
         'report/sale_report_orm_templates.xml',
-        'report/sales_report_orm:report.xml',
+        'report/sale_report_orm_report.xml',
     ],
     'installable': True,
     'application': True,
